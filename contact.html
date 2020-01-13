@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Details</title>
+</head>
+<body>
+        <h1>My Contact Details</h1>
+        <p>My Addresss</p>
+        <p>My phone number</p>
+        <p>My emmail</p>
+
+        <form action="mailto:info@mediadier.nl?subject=Contact Form" method="post" enctype="text/plain">
+            <label for="name">Your name:</label>
+            <input type="text" name="name">
+            <br>
+            <label for="password">Your Email:</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="message">Your message:</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
